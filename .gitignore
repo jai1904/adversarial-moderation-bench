@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+data/processed/*.parquet
+data/raw/
+results/cache/
+*.pt
+*.bin
+*.safetensors
+.env
