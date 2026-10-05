@@ -1,0 +1,31 @@
+# ---- core (install first, CPU only) -------------------------------------
+datasets>=2.18.0
+pandas>=2.0.0
+pyarrow>=14.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+tqdm>=4.66.0
+
+# ---- baselines ----------------------------------------------------------
+# Detoxify pulls torch + transformers. On Colab these are preinstalled;
+# locally this is a ~2GB download. Run the CPU-only baseline first.
+detoxify>=0.5.2
+transformers>=4.38.0
+torch>=2.1.0
+
+# ---- fine-tuning (Colab GPU) -------------------------------------------
+accelerate>=0.27.0
+evaluate>=0.4.1
+
+# ---- plotting / writeup -------------------------------------------------
+matplotlib>=3.7.0
+seaborn>=0.13.0
+
+# ---- week 2: Hinglish attack family ------------------------------------
+# indic-transliteration>=2.3.0
+
+# ---- week 3: demo -------------------------------------------------------
+# gradio>=4.20.0
+
+# ---- Perspective API baseline ------------------------------------------
+# google-api-python-client>=2.120.0
